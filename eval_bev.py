@@ -4,7 +4,7 @@ import numpy as np
 
 def evaluate_map(gt_data, pred_data):
     thresholds = np.array([0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65])
-    map_classes = ['drivable_area', 'ped_crossing', 'divider']
+    map_classes = ['drivable_area', 'divider']
     num_classes = len(map_classes)
     num_thresholds = len(thresholds)
 
